@@ -68,7 +68,7 @@ html {
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
-.button:focus {
+.button:focus-visible {
   outline: 1px solid #BAEF00;
   outline-offset: 3px;
 }
@@ -84,7 +84,7 @@ html {
   padding-inline: 16px;
   font-size: 16px;
 }
-.input:focus {
+.input:focus-visible {
   outline: 1px solid #BAEF00;
   outline-offset: 0.5px;
 }
